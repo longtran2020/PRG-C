@@ -3,11 +3,14 @@
 #include <stdio.h>  
 #include <time.h> 
 
-int main() {
-
-printf("                                     čísla pod sebou\n");
+int main() 
+{
+ printf("čísla pod sebou\n"); 
     int i;
     for(i=1; i<=33; i++){
        printf("%i\n", i);
+
+    return 0;
 }
- return 0;
+
+
